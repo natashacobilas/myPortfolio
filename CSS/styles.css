@@ -1,0 +1,14 @@
+/*" #products {} this is syntax for ID attribute. We can NOT have multiple elements with the same ID"*/
+
+/*" .product {} this is syntax for CLASS attribute. We CAN have multiple elements with the same CLASS"*/
+
+/*"     a[href="https://www.google.com"] {color: rgb(0, 255, 115)}      "*/
+/*"     a[href^="https"] {color: black} -- selects all ANCHOR elements with ATTRIBUTES that start with HTTPS     "*/
+/*"     a[href$="oggle"] {color: black} -- selects all ANCHOR elements with ATTRIBUTES that end with OGGLE     "*/
+/*"     a[href^="https"] [href$=".com"] -- selects all ANCHOR elements with ATTRIBUTES that start with HTTPS and end with .COM     "*/
+a[href*="google"] {
+    color: rgb(255, 0, 128)
+}
+p {
+    color: orange;
+}
